@@ -1,0 +1,64 @@
+env/
+.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Python virtual environment
+venv/
+env/
+ENV/
+env.bak/
+*.venv
+
+# Django specific
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+
+# Ignore static and media directories (if you collect them locally)
+/static/
+/media/
+
+# Ignore secret keys and sensitive information
+*.env
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime*
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore database dumps and backups
+*.bak
+*.sql
+*.db
+
+# Ignore compiled JavaScript files
+*.js.map
+*.js.map.gz
+
+# Ignore compiled CSS files
+*.css.map
+*.css.map.gz
+
+# Ignore compiled HTML files
+*.html.gz
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
